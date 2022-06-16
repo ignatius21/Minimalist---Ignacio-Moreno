@@ -2,19 +2,43 @@
 /*SECCION INDEX y FOOTER*/
 
 #offcanvasNavbar{
-    background: rgba( 255, 255, 255, 0.25 );
+    background: rgba(102, 188, 194, 0.25);
     box-shadow: 0 8px 32px 0 rgba(92, 92, 92, 0.37);
     backdrop-filter: blur( 4.5px );
 }
 
 .offcanvas-header{
-    color: #888888;
+    color: #042530;
     font-size: 1.4rem;  
 }
 
 .offcanvas-body a{
     color: #ffffff;
     font-size: 1.2rem;
+}
+
+.container4{
+    transform:translate(-50%, -50%);
+    position:absolute;
+    top:50%;
+    left:50%;
+}
+
+.card img{
+    filter: blur(2px);
+}
+
+.card-img-overlay{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card h1{
+    font-family: 'Fascinate', cursive;
+    font-size: 3.8rem;
+    color: #ffffff;
+    opacity: .7;
 }
 
 
@@ -25,7 +49,7 @@
 }
 
 .navbar-brand:hover{
-    color: #797979;
+    color: #44798a;
     transform: scale(1.1);
     transition: .3s ease;
 }

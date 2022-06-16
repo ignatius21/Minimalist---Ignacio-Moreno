@@ -1,5 +1,24 @@
 
 /*SECCION INDEX y FOOTER*/
+
+#offcanvasNavbar{
+    background: rgba( 255, 255, 255, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba(92, 92, 92, 0.37);
+    backdrop-filter: blur( 4.5px );
+}
+
+.offcanvas-header{
+    color: #888888;
+    font-size: 1.4rem;  
+}
+
+.offcanvas-body a{
+    color: #ffffff;
+    font-size: 1.2rem;
+}
+
+
+
 .navbar-brand{
     color: #ffffff;
     font-family: 'Fascinate', cursive;

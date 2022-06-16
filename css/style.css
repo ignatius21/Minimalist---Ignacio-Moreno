@@ -274,7 +274,7 @@
     align-items: center;
 }
 
-.team-boxed {
+.sust-box {
     background: rgba( 255, 255, 255, 0.15 );
     box-shadow: 0 8px 32px 0 rgba(78, 78, 78, 0.37);
     backdrop-filter: blur( 4px );
@@ -284,11 +284,11 @@
     color:#333333;
   }
   
-.team-boxed p {
+.sust-box p {
     color:#2c2c2c;
 }
   
-.team-boxed h2 {
+.sust-box h2 {
     font-weight:bold;
     margin-bottom:40px;
     padding-top:40px;
@@ -296,46 +296,46 @@
 }
   
 @media (max-width:767px) {
-    .team-boxed h2 {
+    .sust-box h2 {
       margin-bottom:25px;
       padding-top:25px;
       font-size:24px;
     }
 }
   
-.team-boxed .intro {
+.sust-box .intro {
     font-size:16px;
     max-width:500px;
     margin:0 auto;
 }
   
-.team-boxed .intro p {
+.sust-box .intro p {
     margin-bottom:0;
 }
   
-.team-boxed .people {
+.sust-box .diseño {
     padding:50px 0;
 }
   
-.team-boxed .item {
+.sust-box .item {
     text-align:center;
 }
   
-.team-boxed .item .box {
+.sust-box .item .box {
     text-align:center;
     padding:30px;
     background-color:#fff;
     margin-bottom:30px;
 }
   
-.team-boxed .item .name {
+.sust-box .item .name {
     font-weight:bold;
     margin-top:28px;
     margin-bottom:8px;
     color:inherit;
 }
   
-.team-boxed .item .title {
+.sust-box .item .titulo {
     text-transform:uppercase;
     font-weight:bold;
     color:#000000;
@@ -343,13 +343,13 @@
     font-size:13px;
 }
   
-.team-boxed .item .description {
+.sust-box .item .descripcion-construccion {
     font-size:15px;
     margin-top:15px;
     margin-bottom:20px;
 }
   
-.team-boxed .item img {
+.sust-box .item img {
     max-width:160px;
 }
   
